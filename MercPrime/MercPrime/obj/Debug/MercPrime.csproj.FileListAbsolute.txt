@@ -21,3 +21,6 @@ C:\Users\LAB-16\Documents\MercPrime\MercPrime\MercPrime\obj\Debug\MercPrime.cspr
 C:\Users\LAB-16\Documents\MercPrime\MercPrime\MercPrime\obj\Debug\MercPrime.csproj.CoreCompileInputs.cache
 C:\Users\LAB-16\Documents\MercPrime\MercPrime\MercPrime\obj\Debug\MercPrime.exe
 C:\Users\LAB-16\Documents\MercPrime\MercPrime\MercPrime\obj\Debug\MercPrime.pdb
+C:\Users\LAB-16\Documents\MercPrime\MercPrime\MercPrime\obj\Debug\MercPrime.frmCadastroFilmes.resources
+C:\Users\LAB-16\Documents\MercPrime\MercPrime\MercPrime\obj\Debug\MercPrime.frmCadastroUsuario.resources
+C:\Users\LAB-16\Documents\MercPrime\MercPrime\MercPrime\obj\Debug\MercPrime.frmCatalogo.resources

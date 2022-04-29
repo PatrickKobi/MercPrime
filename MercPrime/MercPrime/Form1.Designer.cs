@@ -93,8 +93,11 @@
             this.Controls.Add(this.frmUsuario);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.btnEntrar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MinimizeBox = false;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Login - MercFlix";
             this.ResumeLayout(false);
             this.PerformLayout();
 
