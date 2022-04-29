@@ -1,6 +1,6 @@
 ﻿namespace MercPrime
 {
-    partial class Form1
+    partial class frmLogin
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -37,9 +37,9 @@
             // 
             // btnEntrar
             // 
-            this.btnEntrar.Location = new System.Drawing.Point(178, 295);
+            this.btnEntrar.Location = new System.Drawing.Point(123, 259);
             this.btnEntrar.Name = "btnEntrar";
-            this.btnEntrar.Size = new System.Drawing.Size(87, 36);
+            this.btnEntrar.Size = new System.Drawing.Size(95, 32);
             this.btnEntrar.TabIndex = 0;
             this.btnEntrar.Text = "login";
             this.btnEntrar.UseVisualStyleBackColor = true;
@@ -48,9 +48,9 @@
             // txtUsuario
             // 
             this.txtUsuario.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.Location = new System.Drawing.Point(178, 139);
+            this.txtUsuario.Location = new System.Drawing.Point(58, 109);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(100, 32);
+            this.txtUsuario.Size = new System.Drawing.Size(202, 32);
             this.txtUsuario.TabIndex = 1;
             this.txtUsuario.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -58,7 +58,7 @@
             // 
             this.frmUsuario.AutoSize = true;
             this.frmUsuario.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.frmUsuario.Location = new System.Drawing.Point(172, 105);
+            this.frmUsuario.Location = new System.Drawing.Point(52, 75);
             this.frmUsuario.Name = "frmUsuario";
             this.frmUsuario.Size = new System.Drawing.Size(89, 31);
             this.frmUsuario.TabIndex = 2;
@@ -68,7 +68,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(172, 184);
+            this.label1.Location = new System.Drawing.Point(52, 154);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(77, 31);
             this.label1.TabIndex = 4;
@@ -77,17 +77,17 @@
             // txtSenha
             // 
             this.txtSenha.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSenha.Location = new System.Drawing.Point(178, 218);
+            this.txtSenha.Location = new System.Drawing.Point(58, 188);
             this.txtSenha.Name = "txtSenha";
-            this.txtSenha.Size = new System.Drawing.Size(100, 32);
+            this.txtSenha.Size = new System.Drawing.Size(202, 32);
             this.txtSenha.TabIndex = 3;
             this.txtSenha.UseSystemPasswordChar = true;
             // 
-            // Form1
+            // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(447, 370);
+            this.ClientSize = new System.Drawing.Size(334, 370);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.frmUsuario);
@@ -95,7 +95,7 @@
             this.Controls.Add(this.btnEntrar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MinimizeBox = false;
-            this.Name = "Form1";
+            this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login - MercFlix";
             this.ResumeLayout(false);

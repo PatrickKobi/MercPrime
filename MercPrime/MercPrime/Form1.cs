@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MercPrime
 {
-    public partial class Form1 : Form
+    public partial class frmLogin : Form
     {
-        public Form1()
+        public frmLogin()
         {
             InitializeComponent();
         }
@@ -23,14 +23,11 @@ namespace MercPrime
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
-            string usuario;
-            string senha;
-
-            
-
+        {    
+                        
             if ( (txtUsuario.Text == "") && (txtSenha.Text == ""))
             {
+                MessageBox.Show("Bem vindo ao sistama!","LOGADO!",MessageBoxButtons.OK,MessageBoxIcon.Information);
                 frmMenu menu = new frmMenu();
                 menu.ShowDialog();
             }
