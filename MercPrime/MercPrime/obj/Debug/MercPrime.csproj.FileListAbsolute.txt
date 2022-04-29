@@ -9,3 +9,15 @@ C:\Users\LAB-17\Desktop\MERC\MercPrime\MercPrime\MercPrime\obj\Debug\MercPrime.c
 C:\Users\LAB-17\Desktop\MERC\MercPrime\MercPrime\MercPrime\obj\Debug\MercPrime.csproj.CoreCompileInputs.cache
 C:\Users\LAB-17\Desktop\MERC\MercPrime\MercPrime\MercPrime\obj\Debug\MercPrime.exe
 C:\Users\LAB-17\Desktop\MERC\MercPrime\MercPrime\MercPrime\obj\Debug\MercPrime.pdb
+C:\Users\LAB-16\Documents\MercPrime\MercPrime\MercPrime\bin\Debug\MercPrime.exe.config
+C:\Users\LAB-16\Documents\MercPrime\MercPrime\MercPrime\bin\Debug\MercPrime.exe
+C:\Users\LAB-16\Documents\MercPrime\MercPrime\MercPrime\bin\Debug\MercPrime.pdb
+C:\Users\LAB-16\Documents\MercPrime\MercPrime\MercPrime\obj\Debug\MercPrime.csproj.AssemblyReference.cache
+C:\Users\LAB-16\Documents\MercPrime\MercPrime\MercPrime\obj\Debug\MercPrime.csproj.SuggestedBindingRedirects.cache
+C:\Users\LAB-16\Documents\MercPrime\MercPrime\MercPrime\obj\Debug\MercPrime.Form1.resources
+C:\Users\LAB-16\Documents\MercPrime\MercPrime\MercPrime\obj\Debug\MercPrime.frmMenu.resources
+C:\Users\LAB-16\Documents\MercPrime\MercPrime\MercPrime\obj\Debug\MercPrime.Properties.Resources.resources
+C:\Users\LAB-16\Documents\MercPrime\MercPrime\MercPrime\obj\Debug\MercPrime.csproj.GenerateResource.cache
+C:\Users\LAB-16\Documents\MercPrime\MercPrime\MercPrime\obj\Debug\MercPrime.csproj.CoreCompileInputs.cache
+C:\Users\LAB-16\Documents\MercPrime\MercPrime\MercPrime\obj\Debug\MercPrime.exe
+C:\Users\LAB-16\Documents\MercPrime\MercPrime\MercPrime\obj\Debug\MercPrime.pdb
