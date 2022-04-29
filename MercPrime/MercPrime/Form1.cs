@@ -27,8 +27,14 @@ namespace MercPrime
             string usuario;
             string senha;
 
-            frmMenu frmMenu = new frmMenu();
-            frmMenu.ShowDialog();
+            
+
+            if ( (txtUsuario.Text == "") && (txtSenha.Text == ""))
+            {
+                frmMenu menu = new frmMenu();
+                menu.ShowDialog();
+            }
+            
             
         }
     }
