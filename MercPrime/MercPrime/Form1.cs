@@ -21,5 +21,15 @@ namespace MercPrime
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string usuario;
+            string senha;
+
+            frmMenu frmMenu = new frmMenu();
+            frmMenu.ShowDialog();
+            
+        }
     }
 }
