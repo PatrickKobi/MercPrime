@@ -34,17 +34,7 @@ namespace MercPrime
             frmCadastroFilmes filmes = new frmCadastroFilmes();
             filmes.ShowDialog();
         }
-
-        private void toolStripStatusLabel1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void toolStripStatusLabel2_Click(object sender, EventArgs e)
-        {
-
-        }
-
+      
         private void timer1_Tick(object sender, EventArgs e)
         {
             txtHora.Text = DateTime.Now.ToString("HH:mm");
@@ -52,7 +42,22 @@ namespace MercPrime
 
         private void frmMenu_Load(object sender, EventArgs e)
         {
+            
+        }
 
+        private void frmMenu_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            
+        }
+
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Deseja realmente sair", "Saindo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                this.Dispose();
+                frmLogin login = new frmLogin();
+                login.Show();
+            }
         }
     }
 }

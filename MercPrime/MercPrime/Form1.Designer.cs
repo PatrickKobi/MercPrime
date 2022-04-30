@@ -37,7 +37,7 @@
             // 
             // btnEntrar
             // 
-            this.btnEntrar.Location = new System.Drawing.Point(123, 259);
+            this.btnEntrar.Location = new System.Drawing.Point(152, 297);
             this.btnEntrar.Name = "btnEntrar";
             this.btnEntrar.Size = new System.Drawing.Size(95, 32);
             this.btnEntrar.TabIndex = 0;
@@ -48,7 +48,7 @@
             // txtUsuario
             // 
             this.txtUsuario.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.Location = new System.Drawing.Point(58, 109);
+            this.txtUsuario.Location = new System.Drawing.Point(87, 147);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(202, 32);
             this.txtUsuario.TabIndex = 1;
@@ -58,7 +58,7 @@
             // 
             this.frmUsuario.AutoSize = true;
             this.frmUsuario.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.frmUsuario.Location = new System.Drawing.Point(52, 75);
+            this.frmUsuario.Location = new System.Drawing.Point(81, 113);
             this.frmUsuario.Name = "frmUsuario";
             this.frmUsuario.Size = new System.Drawing.Size(89, 31);
             this.frmUsuario.TabIndex = 2;
@@ -68,7 +68,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(52, 154);
+            this.label1.Location = new System.Drawing.Point(81, 192);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(77, 31);
             this.label1.TabIndex = 4;
@@ -77,17 +77,19 @@
             // txtSenha
             // 
             this.txtSenha.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSenha.Location = new System.Drawing.Point(58, 188);
+            this.txtSenha.Location = new System.Drawing.Point(87, 226);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(202, 32);
             this.txtSenha.TabIndex = 3;
             this.txtSenha.UseSystemPasswordChar = true;
+            this.txtSenha.TextChanged += new System.EventHandler(this.txtSenha_TextChanged);
+            this.txtSenha.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSenha_KeyDown);
             // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(344, 370);
+            this.ClientSize = new System.Drawing.Size(393, 451);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.frmUsuario);
@@ -98,6 +100,8 @@
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login - MercFlix";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmLogin_FormClosing);
+            this.Load += new System.EventHandler(this.frmLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
