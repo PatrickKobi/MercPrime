@@ -27,7 +27,7 @@ namespace MercPrime
                         
             if ( (txtUsuario.Text == "") && (txtSenha.Text == ""))
             {
-                MessageBox.Show("Bem vindo ao sistama!","LOGADO!",MessageBoxButtons.OK,MessageBoxIcon.Information);
+                MessageBox.Show("Bem vindo ao sistema!","LOGADO!",MessageBoxButtons.OK,MessageBoxIcon.Information);
                 frmMenu menu = new frmMenu();
                 menu.ShowDialog();
             }
