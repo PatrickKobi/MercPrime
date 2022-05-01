@@ -63,6 +63,16 @@ namespace MercPrime.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BOTAO_CADASTRAR {
+            get {
+                object obj = ResourceManager.GetObject("BOTAO CADASTRAR", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap LOGIN_MERFLIX {
             get {
                 object obj = ResourceManager.GetObject("LOGIN-MERFLIX", resourceCulture);
@@ -76,6 +86,36 @@ namespace MercPrime.Properties {
         internal static System.Drawing.Bitmap LOGIN_MERFLIX_BUTTON {
             get {
                 object obj = ResourceManager.GetObject("LOGIN-MERFLIX BUTTON", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MENU___MERCFLIX {
+            get {
+                object obj = ResourceManager.GetObject("MENU - MERCFLIX", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MENU___MERCFLIX1 {
+            get {
+                object obj = ResourceManager.GetObject("MENU - MERCFLIX1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MENU___MERCFLIX2 {
+            get {
+                object obj = ResourceManager.GetObject("MENU - MERCFLIX2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
