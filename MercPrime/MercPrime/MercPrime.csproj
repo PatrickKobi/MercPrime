@@ -119,5 +119,17 @@
   <ItemGroup>
     <None Include="Resources\sonic2.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MERFLIX LOGO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MERCFLIXLOGO2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGIN-MERFLIX.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGIN-MERFLIX BUTTON.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

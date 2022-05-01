@@ -30,56 +30,44 @@
         {
             this.btnEntrar = new System.Windows.Forms.Button();
             this.txtUsuario = new System.Windows.Forms.TextBox();
-            this.frmUsuario = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.txtSenha = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnEntrar
             // 
-            this.btnEntrar.Location = new System.Drawing.Point(152, 297);
+            this.btnEntrar.AutoSize = true;
+            this.btnEntrar.BackgroundImage = global::MercPrime.Properties.Resources.LOGIN_MERFLIX_BUTTON;
+            this.btnEntrar.FlatAppearance.BorderSize = 0;
+            this.btnEntrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEntrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEntrar.Location = new System.Drawing.Point(122, 376);
             this.btnEntrar.Name = "btnEntrar";
-            this.btnEntrar.Size = new System.Drawing.Size(95, 32);
+            this.btnEntrar.Size = new System.Drawing.Size(136, 29);
             this.btnEntrar.TabIndex = 0;
-            this.btnEntrar.Text = "login";
             this.btnEntrar.UseVisualStyleBackColor = true;
             this.btnEntrar.Click += new System.EventHandler(this.button1_Click);
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.Location = new System.Drawing.Point(87, 147);
+            this.txtUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(39)))), ((int)(((byte)(49)))));
+            this.txtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsuario.ForeColor = System.Drawing.Color.White;
+            this.txtUsuario.Location = new System.Drawing.Point(72, 200);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(202, 32);
+            this.txtUsuario.Size = new System.Drawing.Size(213, 19);
             this.txtUsuario.TabIndex = 1;
             this.txtUsuario.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // frmUsuario
-            // 
-            this.frmUsuario.AutoSize = true;
-            this.frmUsuario.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.frmUsuario.Location = new System.Drawing.Point(81, 113);
-            this.frmUsuario.Name = "frmUsuario";
-            this.frmUsuario.Size = new System.Drawing.Size(89, 31);
-            this.frmUsuario.TabIndex = 2;
-            this.frmUsuario.Text = "Usuario";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(81, 192);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 31);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Senha";
-            // 
             // txtSenha
             // 
-            this.txtSenha.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSenha.Location = new System.Drawing.Point(87, 226);
+            this.txtSenha.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(39)))), ((int)(((byte)(49)))));
+            this.txtSenha.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSenha.ForeColor = System.Drawing.Color.White;
+            this.txtSenha.Location = new System.Drawing.Point(72, 315);
             this.txtSenha.Name = "txtSenha";
-            this.txtSenha.Size = new System.Drawing.Size(202, 32);
+            this.txtSenha.Size = new System.Drawing.Size(213, 19);
             this.txtSenha.TabIndex = 3;
             this.txtSenha.UseSystemPasswordChar = true;
             this.txtSenha.TextChanged += new System.EventHandler(this.txtSenha_TextChanged);
@@ -89,10 +77,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(393, 451);
-            this.Controls.Add(this.label1);
+            this.BackgroundImage = global::MercPrime.Properties.Resources.LOGIN_MERFLIX;
+            this.ClientSize = new System.Drawing.Size(380, 443);
             this.Controls.Add(this.txtSenha);
-            this.Controls.Add(this.frmUsuario);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.btnEntrar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -111,8 +98,6 @@
 
         private System.Windows.Forms.Button btnEntrar;
         private System.Windows.Forms.TextBox txtUsuario;
-        private System.Windows.Forms.Label frmUsuario;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtSenha;
     }
 }
