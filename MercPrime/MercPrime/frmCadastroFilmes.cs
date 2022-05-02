@@ -19,6 +19,7 @@ namespace MercPrime
 
         private void btnCadastrarFilme_Click(object sender, EventArgs e)
         {
+
             string filme, genero, descricao;
             filme = txtFilme.Text;
             genero = txtGenero.Text;
@@ -30,14 +31,30 @@ namespace MercPrime
                 "Gênero: " + genero + "\n" +
                 "Descrição: " + descricao + "\n",         
                 "CADASTRADO", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            btnCadastrarFilme.Visible = false;
+            btnNovo.Enabled = true;
+
+            txtFilme.Text = "";
+            txtGenero.Text = "";
+            txtDecricao.Text = "";
+
+            txtFilme.Enabled = false;
+            txtDecricao.Enabled = false;
+            txtGenero.Enabled = false;
+
+           
         }
 
+      
         private void button1_Click(object sender, EventArgs e)
         {
             txtFilme.Enabled = true;
             txtDecricao.Enabled = true;
             txtGenero.Enabled = true;
             btnCadastrarFilme.Visible = true;
+            btnNovo.Enabled = false;
         }
+
     }
 }
