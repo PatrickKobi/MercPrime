@@ -43,6 +43,7 @@
             this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
             this.txtHora = new System.Windows.Forms.ToolStripStatusLabel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.sAIRToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -64,7 +65,8 @@
             this.cadastrosToolStripMenuItem,
             this.catálogoToolStripMenuItem,
             this.toolStripMenuItem1,
-            this.sairToolStripMenuItem});
+            this.sairToolStripMenuItem,
+            this.sAIRToolStripMenuItem1});
             this.inícioToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(39)))), ((int)(((byte)(49)))));
             this.inícioToolStripMenuItem.Name = "inícioToolStripMenuItem";
             this.inícioToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
@@ -114,7 +116,7 @@
             this.sairToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(39)))), ((int)(((byte)(49)))));
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
             this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.sairToolStripMenuItem.Text = "SAIR";
+            this.sairToolStripMenuItem.Text = "DESCONECTAR";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
             // statusStrip1
@@ -165,6 +167,14 @@
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // sAIRToolStripMenuItem1
+            // 
+            this.sAIRToolStripMenuItem1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(39)))), ((int)(((byte)(49)))));
+            this.sAIRToolStripMenuItem1.Name = "sAIRToolStripMenuItem1";
+            this.sAIRToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.sAIRToolStripMenuItem1.Text = "SAIR";
+            this.sAIRToolStripMenuItem1.Click += new System.EventHandler(this.sAIRToolStripMenuItem1_Click);
+            // 
             // frmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -173,7 +183,7 @@
             this.ClientSize = new System.Drawing.Size(734, 461);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.menuStrip1;
             this.MinimizeBox = false;
             this.Name = "frmMenu";
@@ -206,5 +216,6 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem sAIRToolStripMenuItem1;
     }
 }

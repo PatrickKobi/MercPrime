@@ -16,5 +16,25 @@ namespace MercPrime
         {
             InitializeComponent();
         }
+
+        private void btnCadastrar_Click(object sender, EventArgs e)
+        {
+            string nome,email,usuario,senha,nascimento;
+            nome = txtNome.Text;
+            email = txtEmail.Text;
+            usuario = txtUsuario.Text;
+            senha = txtSenha.Text;
+            nascimento = txtNascimento.Text;
+
+            MessageBox.Show("Usuário Cadastrado com Sucesso \n" + 
+                "Nome: " + nome + "\n" +
+                "Email: " + email + "\n" + 
+                "Usuário: " + usuario + "\n" + 
+                "Senha: " + senha + "\n" +
+                "Data de nascimento: " + nascimento + "\n" 
+
+                ,"CADASTRADO",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            
+        }
     }
 }

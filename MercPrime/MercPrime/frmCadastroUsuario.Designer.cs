@@ -28,28 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCadastroUsuario));
+            this.txtNome = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.txtNascimento = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtSenha = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCadastrar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtNome
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(17, 220);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(273, 29);
-            this.textBox1.TabIndex = 1;
+            this.txtNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNome.Location = new System.Drawing.Point(17, 220);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(273, 29);
+            this.txtNome.TabIndex = 1;
             // 
             // label2
             // 
@@ -68,18 +69,18 @@
             this.label4.Location = new System.Drawing.Point(544, 279);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(230, 29);
-            this.label4.TabIndex = 7;
+            this.label4.TabIndex = 10;
             this.label4.Text = "Data de Nascimento";
             // 
-            // dateTimePicker1
+            // txtNascimento
             // 
-            this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(548, 311);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(226, 31);
-            this.dateTimePicker1.TabIndex = 8;
+            this.txtNascimento.CalendarFont = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNascimento.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNascimento.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.txtNascimento.Location = new System.Drawing.Point(548, 311);
+            this.txtNascimento.Name = "txtNascimento";
+            this.txtNascimento.Size = new System.Drawing.Size(226, 31);
+            this.txtNascimento.TabIndex = 9;
             // 
             // label5
             // 
@@ -88,16 +89,16 @@
             this.label5.Location = new System.Drawing.Point(12, 279);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(96, 29);
-            this.label5.TabIndex = 10;
+            this.label5.TabIndex = 6;
             this.label5.Text = "Usuário";
             // 
-            // textBox2
+            // txtUsuario
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(17, 311);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(273, 31);
-            this.textBox2.TabIndex = 9;
+            this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsuario.Location = new System.Drawing.Point(17, 311);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(273, 31);
+            this.txtUsuario.TabIndex = 5;
             // 
             // label6
             // 
@@ -106,16 +107,16 @@
             this.label6.Location = new System.Drawing.Point(303, 279);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(82, 29);
-            this.label6.TabIndex = 12;
+            this.label6.TabIndex = 8;
             this.label6.Text = "Senha";
             // 
-            // textBox3
+            // txtSenha
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(308, 311);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(222, 31);
-            this.textBox3.TabIndex = 11;
+            this.txtSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSenha.Location = new System.Drawing.Point(308, 311);
+            this.txtSenha.Name = "txtSenha";
+            this.txtSenha.Size = new System.Drawing.Size(222, 31);
+            this.txtSenha.TabIndex = 7;
             // 
             // pictureBox1
             // 
@@ -127,17 +128,18 @@
             this.pictureBox1.TabIndex = 14;
             this.pictureBox1.TabStop = false;
             // 
-            // button1
+            // btnCadastrar
             // 
-            this.button1.BackgroundImage = global::MercPrime.Properties.Resources.BOTAO_CADASTRAR;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(352, 376);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 50);
-            this.button1.TabIndex = 13;
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCadastrar.BackgroundImage = global::MercPrime.Properties.Resources.BOTAO_CADASTRAR;
+            this.btnCadastrar.FlatAppearance.BorderSize = 0;
+            this.btnCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCadastrar.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadastrar.Location = new System.Drawing.Point(352, 376);
+            this.btnCadastrar.Name = "btnCadastrar";
+            this.btnCadastrar.Size = new System.Drawing.Size(120, 50);
+            this.btnCadastrar.TabIndex = 11;
+            this.btnCadastrar.UseVisualStyleBackColor = true;
+            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
             // label1
             // 
@@ -146,16 +148,16 @@
             this.label1.Location = new System.Drawing.Point(303, 188);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(74, 29);
-            this.label1.TabIndex = 16;
+            this.label1.TabIndex = 4;
             this.label1.Text = "Email";
             // 
-            // textBox4
+            // txtEmail
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(308, 220);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(466, 29);
-            this.textBox4.TabIndex = 15;
+            this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmail.Location = new System.Drawing.Point(308, 220);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(466, 29);
+            this.txtEmail.TabIndex = 3;
             // 
             // frmCadastroUsuario
             // 
@@ -164,18 +166,19 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.txtUsuario);
+            this.Controls.Add(this.txtNascimento);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtNome);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimizeBox = false;
             this.Name = "frmCadastroUsuario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -187,17 +190,17 @@
         }
 
         #endregion
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker txtNascimento;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtSenha;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCadastrar;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtEmail;
     }
 }

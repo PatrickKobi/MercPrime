@@ -28,13 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCadastroFilmes));
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtGenero = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtDecricao = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtFilme = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnCadastrarFilme = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -46,16 +48,17 @@
             this.label6.Location = new System.Drawing.Point(277, 195);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(94, 29);
-            this.label6.TabIndex = 24;
+            this.label6.TabIndex = 4;
             this.label6.Text = "Gênero";
             // 
-            // textBox3
+            // txtGenero
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(282, 227);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(248, 31);
-            this.textBox3.TabIndex = 23;
+            this.txtGenero.Enabled = false;
+            this.txtGenero.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGenero.Location = new System.Drawing.Point(282, 227);
+            this.txtGenero.Name = "txtGenero";
+            this.txtGenero.Size = new System.Drawing.Size(248, 31);
+            this.txtGenero.TabIndex = 3;
             // 
             // label5
             // 
@@ -64,17 +67,18 @@
             this.label5.Location = new System.Drawing.Point(25, 271);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(121, 29);
-            this.label5.TabIndex = 22;
+            this.label5.TabIndex = 6;
             this.label5.Text = "Descrição";
             // 
-            // textBox2
+            // txtDecricao
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(30, 303);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(500, 103);
-            this.textBox2.TabIndex = 21;
+            this.txtDecricao.Enabled = false;
+            this.txtDecricao.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDecricao.Location = new System.Drawing.Point(30, 303);
+            this.txtDecricao.Multiline = true;
+            this.txtDecricao.Name = "txtDecricao";
+            this.txtDecricao.Size = new System.Drawing.Size(500, 103);
+            this.txtDecricao.TabIndex = 5;
             // 
             // label2
             // 
@@ -83,16 +87,17 @@
             this.label2.Location = new System.Drawing.Point(25, 197);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(171, 29);
-            this.label2.TabIndex = 16;
+            this.label2.TabIndex = 2;
             this.label2.Text = "Nome do filme";
             // 
-            // textBox1
+            // txtFilme
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(30, 229);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(237, 29);
-            this.textBox1.TabIndex = 15;
+            this.txtFilme.Enabled = false;
+            this.txtFilme.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFilme.Location = new System.Drawing.Point(30, 229);
+            this.txtFilme.Name = "txtFilme";
+            this.txtFilme.Size = new System.Drawing.Size(237, 29);
+            this.txtFilme.TabIndex = 1;
             // 
             // pictureBox1
             // 
@@ -105,17 +110,32 @@
             this.pictureBox1.TabIndex = 26;
             this.pictureBox1.TabStop = false;
             // 
+            // btnCadastrarFilme
+            // 
+            this.btnCadastrarFilme.BackgroundImage = global::MercPrime.Properties.Resources.BOTAO_CADASTRAR;
+            this.btnCadastrarFilme.FlatAppearance.BorderSize = 0;
+            this.btnCadastrarFilme.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCadastrarFilme.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadastrarFilme.Location = new System.Drawing.Point(278, 445);
+            this.btnCadastrarFilme.Name = "btnCadastrarFilme";
+            this.btnCadastrarFilme.Size = new System.Drawing.Size(120, 50);
+            this.btnCadastrarFilme.TabIndex = 7;
+            this.btnCadastrarFilme.UseVisualStyleBackColor = true;
+            this.btnCadastrarFilme.Visible = false;
+            this.btnCadastrarFilme.Click += new System.EventHandler(this.btnCadastrarFilme_Click);
+            // 
             // button1
             // 
-            this.button1.BackgroundImage = global::MercPrime.Properties.Resources.BOTAO_CADASTRAR;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(216, 445);
+            this.button1.Location = new System.Drawing.Point(127, 445);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(120, 50);
-            this.button1.TabIndex = 25;
+            this.button1.TabIndex = 27;
+            this.button1.Text = "NOVO";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // frmCadastroFilmes
             // 
@@ -123,15 +143,17 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(577, 531);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.btnCadastrarFilme);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtGenero);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtDecricao);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtFilme);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimizeBox = false;
             this.Name = "frmCadastroFilmes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -144,13 +166,14 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCadastrarFilme;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtGenero;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtDecricao;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtFilme;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button1;
     }
 }
