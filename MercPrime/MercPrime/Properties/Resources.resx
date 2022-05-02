@@ -118,11 +118,53 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="LOGIN-MERFLIX" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LOGIN-MERFLIX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BOTAO CADASTRAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOTAO CADASTRAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Doutor Estranho 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Doutor Estranho 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="batman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\batman.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="355" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\355.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sonic2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sonic2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Turma Da Mônica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Turma Da Mônica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MENU - MERCFLIX1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MENU - MERCFLIX1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Uncharted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Uncharted.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Morbius" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Morbius.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MERCFLIXLOGO2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MERCFLIXLOGO2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Exorcismo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Exorcismo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pânico 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pânico 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOGIN-MERFLIX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LOGIN-MERFLIX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOGIN-MERFLIX BUTTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LOGIN-MERFLIX BUTTON.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aquaman 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Aquaman 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MENU - MERCFLIX" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MENU - MERCFLIX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -130,19 +172,13 @@
   <data name="MERFLIX LOGO" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MERFLIX LOGO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MERCFLIXLOGO2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MERCFLIXLOGO2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LOGIN-MERFLIX BUTTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LOGIN-MERFLIX BUTTON.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BOTAO CADASTRAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BOTAO CADASTRAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sonic2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sonic2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Minions 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minions 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MENU - MERCFLIX2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MENU - MERCFLIX2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sing 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sing 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

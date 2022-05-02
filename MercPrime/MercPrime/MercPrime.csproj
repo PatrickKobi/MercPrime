@@ -143,5 +143,41 @@
   <ItemGroup>
     <None Include="Resources\MENU - MERCFLIX2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aquaman 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doutor Estranho 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Morbius.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\batman.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exorcismo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pânico 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\355.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minions 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Uncharted.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Turma Da Mônica.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sing 2.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
