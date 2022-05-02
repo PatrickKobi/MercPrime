@@ -52,7 +52,7 @@ namespace MercPrime
 
         private void sairToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Deseja realmente desconectar?", "Saindo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            if (MessageBox.Show("Deseja realmente desconectar?", "Desconectando", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
                 this.Dispose();
                 frmLogin login = new frmLogin();
@@ -62,7 +62,7 @@ namespace MercPrime
 
         private void sAIRToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Deseja realmente desconectar?", "Saindo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            if (MessageBox.Show("Deseja realmente sair?", "Saindo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
                 Application.Exit();
             }

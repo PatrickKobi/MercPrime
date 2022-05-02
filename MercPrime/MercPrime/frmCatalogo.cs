@@ -17,6 +17,15 @@ namespace MercPrime
             InitializeComponent();
         }
 
-        
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_MouseHover(object sender, EventArgs e)
+        {
+           
+            
+        }
     }
 }
