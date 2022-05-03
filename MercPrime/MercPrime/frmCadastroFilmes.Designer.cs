@@ -32,7 +32,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.txtGenero = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.txtDecricao = new System.Windows.Forms.TextBox();
+            this.txtDescricao = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtFilme = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -70,15 +70,15 @@
             this.label5.TabIndex = 6;
             this.label5.Text = "Descrição";
             // 
-            // txtDecricao
+            // txtDescricao
             // 
-            this.txtDecricao.Enabled = false;
-            this.txtDecricao.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDecricao.Location = new System.Drawing.Point(30, 303);
-            this.txtDecricao.Multiline = true;
-            this.txtDecricao.Name = "txtDecricao";
-            this.txtDecricao.Size = new System.Drawing.Size(500, 103);
-            this.txtDecricao.TabIndex = 5;
+            this.txtDescricao.Enabled = false;
+            this.txtDescricao.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDescricao.Location = new System.Drawing.Point(30, 303);
+            this.txtDescricao.Multiline = true;
+            this.txtDescricao.Name = "txtDescricao";
+            this.txtDescricao.Size = new System.Drawing.Size(500, 103);
+            this.txtDescricao.TabIndex = 5;
             // 
             // label2
             // 
@@ -149,7 +149,7 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtGenero);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.txtDecricao);
+            this.Controls.Add(this.txtDescricao);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtFilme);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -170,7 +170,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtGenero;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtDecricao;
+        private System.Windows.Forms.TextBox txtDescricao;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtFilme;
         private System.Windows.Forms.PictureBox pictureBox1;

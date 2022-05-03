@@ -23,24 +23,32 @@ namespace MercPrime
             string filme, genero, descricao;
             filme = txtFilme.Text;
             genero = txtGenero.Text;
-            descricao = txtDecricao.Text;
-            
+            descricao = txtDescricao.Text;
 
-            MessageBox.Show("Filme Cadastrado com Sucesso \n" +
+            if ((txtFilme.Text == "") || (txtGenero.Text == "") || (txtDescricao.Text == ""))
+            {
+                MessageBox.Show("PREENCHA TODOS OS CAMPOS", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            }
+            else
+            {
+                MessageBox.Show("Filme Cadastrado com Sucesso \n" +
                 "Filme: " + filme + "\n" +
                 "Gênero: " + genero + "\n" +
-                "Descrição: " + descricao + "\n",         
+                "Descrição: " + descricao + "\n",
                 "CADASTRADO", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            
 
             btnCadastrarFilme.Visible = false;
             btnNovo.Enabled = true;
 
             txtFilme.Text = "";
             txtGenero.Text = "";
-            txtDecricao.Text = "";
+            txtDescricao.Text = "";
 
             txtFilme.Enabled = false;
-            txtDecricao.Enabled = false;
+            txtDescricao.Enabled = false;
             txtGenero.Enabled = false;
 
            
@@ -50,7 +58,7 @@ namespace MercPrime
         private void button1_Click(object sender, EventArgs e)
         {
             txtFilme.Enabled = true;
-            txtDecricao.Enabled = true;
+            txtDescricao.Enabled = true;
             txtGenero.Enabled = true;
             btnCadastrarFilme.Visible = true;
             btnNovo.Enabled = false;
