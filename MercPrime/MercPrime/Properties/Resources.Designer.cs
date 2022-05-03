@@ -103,6 +103,26 @@ namespace MercPrime.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BOTAO_novo {
+            get {
+                object obj = ResourceManager.GetObject("BOTAO novo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BOTAO_nv {
+            get {
+                object obj = ResourceManager.GetObject("BOTAO nv", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Doutor_Estranho_2 {
             get {
                 object obj = ResourceManager.GetObject("Doutor Estranho 2", resourceCulture);
@@ -143,6 +163,26 @@ namespace MercPrime.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap LOGIN_MERFLIX_BUTTON1 {
+            get {
+                object obj = ResourceManager.GetObject("LOGIN-MERFLIX BUTTON1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LOGIN_MERFLIX1 {
+            get {
+                object obj = ResourceManager.GetObject("LOGIN-MERFLIX1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MENU___MERCFLIX {
             get {
                 object obj = ResourceManager.GetObject("MENU - MERCFLIX", resourceCulture);
@@ -166,6 +206,36 @@ namespace MercPrime.Properties {
         internal static System.Drawing.Bitmap MENU___MERCFLIX2 {
             get {
                 object obj = ResourceManager.GetObject("MENU - MERCFLIX2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MERCFLIX_CATALOGO {
+            get {
+                object obj = ResourceManager.GetObject("MERCFLIX CATALOGO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MERCFLIX_PNGG {
+            get {
+                object obj = ResourceManager.GetObject("MERCFLIX PNGG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MERCFLIX_PNGG1 {
+            get {
+                object obj = ResourceManager.GetObject("MERCFLIX PNGG1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -236,6 +306,16 @@ namespace MercPrime.Properties {
         internal static System.Drawing.Bitmap sonic2 {
             get {
                 object obj = ResourceManager.GetObject("sonic2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap trtrasdawf {
+            get {
+                object obj = ResourceManager.GetObject("trtrasdawf", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

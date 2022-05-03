@@ -35,9 +35,9 @@
             this.txtDescricao = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtFilme = new System.Windows.Forms.TextBox();
+            this.btnNovo = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnCadastrarFilme = new System.Windows.Forms.Button();
-            this.btnNovo = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -99,6 +99,19 @@
             this.txtFilme.Size = new System.Drawing.Size(237, 29);
             this.txtFilme.TabIndex = 1;
             // 
+            // btnNovo
+            // 
+            this.btnNovo.BackgroundImage = global::MercPrime.Properties.Resources.BOTAO_nv;
+            this.btnNovo.FlatAppearance.BorderSize = 0;
+            this.btnNovo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNovo.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNovo.Location = new System.Drawing.Point(127, 445);
+            this.btnNovo.Name = "btnNovo";
+            this.btnNovo.Size = new System.Drawing.Size(120, 50);
+            this.btnNovo.TabIndex = 27;
+            this.btnNovo.UseVisualStyleBackColor = true;
+            this.btnNovo.Click += new System.EventHandler(this.button1_Click);
+            // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.White;
@@ -123,19 +136,6 @@
             this.btnCadastrarFilme.UseVisualStyleBackColor = true;
             this.btnCadastrarFilme.Visible = false;
             this.btnCadastrarFilme.Click += new System.EventHandler(this.btnCadastrarFilme_Click);
-            // 
-            // btnNovo
-            // 
-            this.btnNovo.FlatAppearance.BorderSize = 0;
-            this.btnNovo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNovo.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNovo.Location = new System.Drawing.Point(127, 445);
-            this.btnNovo.Name = "btnNovo";
-            this.btnNovo.Size = new System.Drawing.Size(120, 50);
-            this.btnNovo.TabIndex = 27;
-            this.btnNovo.Text = "NOVO";
-            this.btnNovo.UseVisualStyleBackColor = true;
-            this.btnNovo.Click += new System.EventHandler(this.button1_Click);
             // 
             // frmCadastroFilmes
             // 

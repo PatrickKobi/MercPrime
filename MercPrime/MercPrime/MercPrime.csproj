@@ -179,5 +179,29 @@
   <ItemGroup>
     <None Include="Resources\Sing 2.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGIN-MERFLIX1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGIN-MERFLIX BUTTON1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trtrasdawf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BOTAO novo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BOTAO nv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MERCFLIX CATALOGO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MERCFLIX PNGG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MERCFLIX PNGG1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -37,13 +37,13 @@
             // btnEntrar
             // 
             this.btnEntrar.AutoSize = true;
-            this.btnEntrar.BackgroundImage = global::MercPrime.Properties.Resources.LOGIN_MERFLIX_BUTTON;
+            this.btnEntrar.BackgroundImage = global::MercPrime.Properties.Resources.trtrasdawf;
             this.btnEntrar.FlatAppearance.BorderSize = 0;
             this.btnEntrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEntrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEntrar.Location = new System.Drawing.Point(122, 376);
+            this.btnEntrar.Location = new System.Drawing.Point(124, 377);
             this.btnEntrar.Name = "btnEntrar";
-            this.btnEntrar.Size = new System.Drawing.Size(136, 29);
+            this.btnEntrar.Size = new System.Drawing.Size(128, 29);
             this.btnEntrar.TabIndex = 0;
             this.btnEntrar.UseVisualStyleBackColor = true;
             this.btnEntrar.Click += new System.EventHandler(this.button1_Click);
@@ -78,7 +78,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::MercPrime.Properties.Resources.LOGIN_MERFLIX;
+            this.BackgroundImage = global::MercPrime.Properties.Resources.LOGIN_MERFLIX1;
             this.ClientSize = new System.Drawing.Size(380, 443);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.txtUsuario);
