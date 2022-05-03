@@ -60,6 +60,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.pictureBox10);
             this.groupBox1.Controls.Add(this.pictureBox11);
             this.groupBox1.Controls.Add(this.pictureBox12);
@@ -217,7 +218,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::MercPrime.Properties.Resources.MERCFLIX_CATALOGO;
-            this.ClientSize = new System.Drawing.Size(784, 749);
+            this.ClientSize = new System.Drawing.Size(784, 823);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
