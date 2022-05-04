@@ -29,7 +29,7 @@ namespace MercPrime
             senha = txtSenha.Text;
 
 
-            if ((usuario == "admin") || (usuario == "") && (senha == ""))
+            if ( (usuario == "admin") && (senha == "admin"))
             {
                 MessageBox.Show("Bem vindo ao sistema!","LOGADO!",MessageBoxButtons.OK,MessageBoxIcon.Information);
                 this.Hide();
@@ -53,12 +53,12 @@ namespace MercPrime
                 usuario = txtUsuario.Text;
                 senha = txtSenha.Text;
 
-                if ((usuario == "admin") || (usuario == "") && (senha == ""))
+                if ((usuario == "admin") && (senha == "admin"))
                 {
                     MessageBox.Show("LOGADO COM SUCESSO", "LOGADO", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     this.Hide();
                     frmMenu menu = new frmMenu();
-                    menu.Show();
+                    menu.ShowDialog();
                 }
                 else
                 {
